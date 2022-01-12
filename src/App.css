@@ -1,0 +1,116 @@
+.App {
+  /* display: flex;
+  flex-direction: column; */
+  background-color: #282c34;
+  color: white;
+  /* min-height: 100vh; */
+  /* height: 650px; */
+  margin: 0;
+  padding: 0;
+  padding: 20px 10px 75px 10px;
+  height: 500px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+  justify-content: center;
+  flex: 1;
+}
+
+.form-right {
+  flex: 0.5;
+  border: 2px solid green;
+  margin-right: 150px;
+  background-color: rgb(220, 223, 224);
+  height: 400px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* styles for the layout */
+.submitBtn {
+  width: 60%;
+  height: 35px;
+  border-radius: 30px;
+  background-color: rgb(30, 175, 93);
+  margin-top: 15px;
+
+  border: none;
+  outline: none;
+}
+
+.amountInpt {
+  width: 70%;
+  height: 30px;
+  padding: 7px;
+  border-radius: 10px;
+  outline-style: none;
+  border: none;
+  margin-top: 20px;
+
+  /* cursor: progress; */
+}
+
+/* cards */
+/* connect styles */
+.connect {
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  justify-content: center;
+}
+
+.connect-btn {
+  width: 65%;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(30, 175, 93);
+  color: white;
+  font-size: 25px;
+  margin: auto;
+  outline: none;
+}
+
+.tag-line {
+  margin: auto;
+  padding-bottom: 50px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.meta {
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: teal;
+  padding: 30px;
+  /* height: 150px; */
+  /* width: ; */
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+.acc {
+  border-radius: 20px;
+}
